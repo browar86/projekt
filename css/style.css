@@ -1,0 +1,189 @@
+h2{
+	text-shadow: 1px 1px 1px #435464;
+}
+
+.imgSlider{
+	width:300px;
+	height:225px;
+}
+
+#form{
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+@media (min-width: 1200px) {
+	#form{
+		width:20%;
+}
+}
+@media (max-width: 1199px) {
+	#form{
+		width:40%;
+}
+}
+
+@media (max-width: 992px) {
+	#form{
+		width:50%;
+}
+}
+
+@media (max-width: 568px) {
+	#form{
+		width:90%;
+}
+}
+
+.border{
+	border: 2px solid;
+    border-radius: 15px;
+	padding:15px;
+	background-color: #7fbb03;
+	color: #2d5500;
+}
+
+#mainContent{
+	border: 2px solid;
+    border-radius: 25px;
+	box-shadow: 10px 10px 5px #888888;
+	background-color: #ebf2f8;
+	margin: 0 auto;
+	padding:20px;
+	margin-bottom: 25px;
+	text-align: justify;
+}
+
+#mainContent header{
+	width: 140px;
+    height: 50px;
+    -webkit-transition: width 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, transform 2s;
+}
+
+#mainContent header:hover {
+    width: 200px;
+    height: 100px;
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+}
+
+#mainContent article p{
+	text-indent: 25px;
+}
+
+@media (min-width: 1200px) {
+	#mainContent{
+		width:65%;
+}
+}
+@media (max-width: 1199px) {
+	#mainContent{
+		width:85%;
+}
+}
+
+.columns{
+	float:left;
+	text-align: center;
+}
+
+#noBorder{
+	border:0;
+}
+
+@media (min-width: 1200px) {
+	.columns{
+		width:33.333%;
+		padding:15px;
+		border-right: 2px solid;
+}
+}
+
+@media (max-width: 1199px) {
+	.columns{
+		width:50%;
+		padding:15px;
+}
+}
+
+@media (max-width: 767px){
+	.columns{
+		width:90%;
+		padding:15px;
+}
+}
+
+#contact{
+	color: #2d5500;
+	border: 2px solid;
+    border-radius: 25px;
+	box-shadow: 10px 10px 5px #888888;
+	background-color: #7fbb03;
+	padding: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.contactColumns{
+	float:left;
+}
+
+@media (min-width: 1200px) {
+	.contactColumns{
+		width:40%;
+}
+}
+
+@media (max-width: 1199px){
+	.contactColumns{
+		width:50%;
+}
+}
+
+@media (max-width: 992px){
+	.contactColumns{
+		width:90%;
+}
+}
+
+#googleMap{
+	border: 3px solid #2d5500;
+}
+
+.marketing header{
+	width: 100px;
+	margin: 0 auto;
+    height: 50px;
+    position: relative;
+	/*Standard syntax*/
+    animation-name: myfirst;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+	-webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 2s;
+	-webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+@-webkit-keyframes myfirst {
+    0%   {left:-100px;}
+    25%  {left:-50px;}
+    50%  {left:0px;}
+    75%  {left:50px;}
+    100% {left:100px;}
+}
+
+@keyframes myfirst {
+    0%   {left:0px;}
+    25%  {left:50px;}
+    50%  {left:100px;}
+    75%  {left:50px;}
+    100% {left:0px;}
+}

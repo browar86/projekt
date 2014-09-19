@@ -1,0 +1,5 @@
+<IfModule mod_headers.c>
+  <FilesMatch "\.(php|htm|html)$">
+    Header set X-UA-Compatible "IE=Edge,chrome=1"
+  </FilesMatch>
+</IfModule>
